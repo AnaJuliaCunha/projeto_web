@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avaliação Final</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
+</head>
+
+<body class="body">
+    <header class="container">
+        <div class="logotipo"><img src="assets/img/senac.png" alt="" /></div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hospedagem.html">Hospedagem</a></li>
+                <li><a href="git.html">Git e GitHub</a></li>
+                <li><a href="gitHubPages.html">GitHub Pages</a></li>
+                <li><a href="portifolio.html">Portifólio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Git e GitHub</h1>
+            <section>
+                <h2>O que é o Git?</h2>
+                <div>
+                    <p>Git é usado para controlar o histórico de alterações de arquivos e principalmente de projetos de
+                        desenvolvimento de software. Ele permite mais flexibilidade no fluxo de trabalho, segurança e
+                        desempenho.Em resumo, ele é uma ferramenta de controle de versão local</p>
+                </div>
+                <h2>O que é o GitHub?</h2>
+                <div>
+                    <p>GitHub é uma plataforma usada para gerenciar, hospedar códigos e arquivos, além de facilitar a
+                        criação de ambientes de colaboração entre pessoas desenvolvedoras. O GitHub usa como sistema de
+                        controle de versão o Git. Ou seja, o GitHub facilita e auxilia a usar o Git no dia a dia.</p>
+                </div>
+            </section>
+        
+            <h2>Como configurar sua conta no Git Bash, criando e clonando um repositório:</h2>
+            <ul>
+                <li>Primeiramente é necessário ter baixado o Git na sua máquina</li>
+                <li>Após abrir o Git Bash, digite <code>git --version</code> para identificar a versão do Git Bash instalado.</li>
+                <li>Digite <code>git config --global user.name "seu nome"</code> para configurar nome do usuário</li>
+                <li>Digite <code>git config --global user.email "seu@email"</code> para configurar e-mail do usuário</li>
+                <li>Abrir a pasta de destino digite <code>cd Documents/(ou a pasta de destino)</code></li>
+                <li>Digite <code>ls</code> para listar os itens da pasta </li>
+                <li>Para criar/abrir uma pasta, digite <code>mkfir nomeDaPasta</code></li>
+                <li>Digite <code>cd nomeDaPasta</code> para abrir a pasta desejada</li>
+                <li>Digite <code>git init</code> para configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório . git no diretório de trabalho atual. Essa ação também vai criar uma ramificação principal.</li>
+                <li> Para abrir um repositório já existente utilize o comando <code>git clone "link HTTPS/SHH"</code></li>
+                <li>Utilize <code>code .</code> para abrir a pasta no VScode</li>
+            </ul>
+
+            <section>
+            <h2>Como configurar (Chave SSH)</h2>
+            <p>Segue instruções de configuração:</p>
+            </section>
+                    
+           
+            <h2>Comandos Git</h2>
+            <p>Segue principais comandos:</p>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/comandos1.PNG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/comandos2.PNG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/comandos3.PNG" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </div>
+    </main>
+
+
+</body>
+
+</html>
