@@ -58,8 +58,19 @@
             </ul>
 
             <section>
-            <h2>Como configurar (Chave SSH)</h2>
+            <h2>Como configurar Chave SSH:</h2>
             <p>Segue instruções de configuração:</p>
+            <ul>
+                <li><strong>Primeiro -</strong> Deverá abrir seu Git Bash e verificar se já há uma chave SSH com o comando <code>ls -al ~/.ssh</code></li>
+                <li><strong>Segundo -</strong> Ou crie uma nova chave com o comando <code>ssh-keygen -t ed25519 -C "email@exemplo.com"</code></li>
+                <li><strong>Terceiro -</strong> Inicialize um agente com o comando eval <code>"$(ssh-agent -s)"</code></li>
+                <li><strong>Quarto -</strong> Insira a chave SSH com a linha de código <code>ssh-add ~/.ssh/id_ed25519</code></li>
+                <li><strong>Quinto -</strong> Utilize o comando para copiar para a área de transferência, sua chave SSH <code>clip < ~/.ssh/id_ed25519.pub</code></li>
+                <li><strong>Sexto -</strong> Entre na conta do GitHub e abra suas settings > SSH and GPG keys</li>
+                <li><strong>Sétimo -</strong> Vá em adicionar uma chave SSH, e dê um nome a essa chave para identificação. Depois, cole o código copiado na caixa de texto grande.</li>
+                <li><strong>Oitavo -</strong> Use <code>ssh -T git@github.com</code> no bash para conectar.</li>
+            </ul>
+            <a rel="stylesheet" href="https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">O próprio site do GitHub disponibiliza um tutorial</a>
             </section>
                     
            
