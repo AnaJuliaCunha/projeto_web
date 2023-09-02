@@ -1,6 +1,7 @@
 body {
   /* Defina o gradiente linear como o fundo do corpo (ou de qualquer outro elemento) */
-  background-image: linear-gradient(to bottom, #0099ff, #00a2ff);
+  background-image: linear-gradient(to bottom, #19537a, #00aeff);
+  background-attachment: fixed;
   /* Defina uma altura para cobrir toda a página */
   height: 100vh;
   color: #000000;
